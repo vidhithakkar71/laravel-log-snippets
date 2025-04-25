@@ -3,7 +3,8 @@
   "displayName": "laravel-log-snippets",
   "description": "",
   "version": "0.0.1",
-  "publisher": "your-vscode-publisher-id",
+  "publisher": "vidhi-nirmal",
+  "icon": "images/laravel-logging.png",
   "author": {
     "name": "Vidhi Nirmal",
     "url": "https://github.com/vidhithakkar71/laravel-log-snippets"
