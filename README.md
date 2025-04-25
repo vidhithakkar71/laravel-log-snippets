@@ -1,13 +1,13 @@
 # Laravel Log Snippets
 
-**Laravel Log Snippets** is a lightweight Visual Studio Code extension that helps Laravel developers quickly log variables using `Log::info()` and `Log::error()` — all with a single shortcut.
+**Laravel Log Snippets** is a lightweight Visual Studio Code extension designed for Laravel developers. It helps you quickly log variables using `Log::info()` and `Log::error()` with just a single shortcut.
 
 ## 🚀 Features
 
-- 🔍 Automatically generate `Log::info()` or `Log::error()` statements
-- 🧠 Logs selected variable name and value
-- 🧹 Clean code insertion on the next line
-- ⚡ Zero configuration needed
+- 🔍 Automatically generates `Log::info()` or `Log::error()` statements
+- 🧠 Logs the selected variable name and value
+- 🧹 Clean insertion of code on the next line
+- ⚡ Zero configuration required
 
 ## ⌨️ Keyboard Shortcuts
 
@@ -23,8 +23,7 @@
 **Before:**
 ```php
 $user = 'John';
-```
-
+```  
 **Select** `$user` and press `Ctrl + Shift + I`
 
 **After:**
@@ -33,24 +32,23 @@ $user = 'John';
 Log::info('$user: ' . $user);
 ```
 
-Works similarly for `Log::error()`.
+The same behavior applies to ```Log::error()```.
 
 ## 🛠 Requirements
 
 - Visual Studio Code
 - PHP project using [Laravel](https://laravel.com)
 
-## 📦 Installation
+## 📦 Installation Methods
 
-1. Search for `Laravel Log Snippets` in the [VS Code Extensions Marketplace](https://marketplace.visualstudio.com/)
-2. Click **Install**
-3. Start using the shortcuts!
+🔹 **From Marketplace**: Search **"Laravel Log Snippets"** in VS Code Extensions and click **Install**  
+🔹 **Via CLI**: `code --install-extension laravel-log-snippets-0.0.1.vsix`  
+🔹 Using .vsix: Replace path/to/ with your actual path, for example:
+```code --install-extension "C:\Users\YourName\Downloads\laravel-log-snippets-0.0.1.vsix" ```
 
-## 👨‍💻 Author
+For more details, visit the [GitHub](https://github.com/vidhithakkar71/laravel-log-snippets).
 
-**Vidhi Nirmal**  
-[GitHub](https://github.com/yourusername)
+## **📜 License**
 
-## 📣 Contributing
-
-Contributions are welcome! Feel free to open issues or submit PRs to help improve the extension.
+This project is licensed under the [MIT License](https://github.com/vidhithakkar71/laravel-log-snippets/blob/main/LICENSE).  
+© **Vidhi Nirmal** - All rights reserved.

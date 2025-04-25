@@ -6,7 +6,11 @@
   "publisher": "your-vscode-publisher-id",
   "author": {
     "name": "Vidhi Nirmal",
-    "url": "https://github.com/yourusername"
+    "url": "https://github.com/vidhithakkar71/laravel-log-snippets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vidhithakkar71/laravel-log-snippets.git"
   },
   "engines": {
     "vscode": "^1.99.0"
